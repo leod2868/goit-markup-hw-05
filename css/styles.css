@@ -556,7 +556,9 @@ margin-right: 8px;
   line-height: 1.56;
   color: var(--white-color);
  }
- .aim:hover .brend {
+ .aim:hover .brend ,
+ .aim:focus .brend
+ {
   transform: translateY(0);
  }
 .aim:hover ,
